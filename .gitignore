@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Model weights / checkpoints (~36GB)
+ourmodel_threedatasets_weights/
+STSTNet_Weights/
+*.pth
+*.pt
+*.ckpt
+*.h5
+
+# Datasets (large, download separately)
+datasets/
+
+# Logs and outputs
+*.log
+runs/
+wandb/
+lightning_logs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code local files
+.claude/
